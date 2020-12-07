@@ -5,9 +5,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
-/*
+
 import { CarouselComponent } from './layout/carousel/carousel.component';
-*/
+
 import { RecomendadosComponent } from './layout/recomendados/recomendados.component';
 import { CategoriasComponent } from './layout/categorias/categorias.component';
 import { AppRouterModule } from './app.routes';
