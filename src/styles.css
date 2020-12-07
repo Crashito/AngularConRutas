@@ -1,0 +1,239 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.css");
+@import url("assets/hovercss/hover.css");
+
+@font-face {
+  font-family: "OpenSans-Light";
+  src: local("OpenSans-Light"), url(assets/fonts/OpenSans-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "GochiHand-Regular";
+  src: local("GochiHand-Regular"), url(assets/fonts/GochiHand-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratAlternates-Medium";
+  src: local("MontserratAlternates-Medium"), url(assets/fonts/MontserratAlternates-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratAlternates-SemiBold";
+  src: local("MontserratAlternates-SemiBold"), url(assets/fonts/MontserratAlternates-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratAlternates-Regular";
+  src: local("MontserratAlternates-Regular"), url(assets/fonts/MontserratAlternates-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratAlternates-Bold";
+  src: local("MontserratAlternates-Bold"), url(assets/fonts/MontserratAlternates-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratAlternates-Italic";
+  src: local("MontserratAlternates-Italic"), url(assets/fonts/MontserratAlternates-Bold.ttf) format("truetype");
+}
+
+.montserrat {
+  font-family: "MontserratAlternates-Regular", Arial, Helvetica, sans-serif;
+}
+
+strong,
+.strong {
+  font-family: "MontserratAlternates-Bold", Arial, Helvetica, sans-serif;
+}
+
+emm,
+.italic {
+  font-family: "MontserratAlternates-Italic", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "GochiHand-Regular", Arial, Helvetica, sans-serif;
+}
+
+.semibold {
+  font-family: "MontserratAlternates-SemiBold", Arial, Helvetica, sans-serif;
+}
+
+.regular {
+  font-family: "MontserratAlternates-Regular", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "MontserratAlternates-Regular", Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 1700px) {
+  .container {
+    max-width: 1550px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1450px;
+  }
+}
+
+
+
+/*background-color: #F9CBD6;*/
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  background: #FCFFDF;
+}
+
+
+.carousel-control-next-icon {
+  background-image: url(assets/icons/next-icon.png);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(assets/icons/prev-icon.png);
+}
+
+
+.carousel-indicators {
+  list-style: none;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  background-image: url(assets/icons/carousel-icon-cat.png);
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  position: relative;
+  margin: 10px;
+}
+
+.carousel-indicators img {
+  position: absolute;
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.carousel-dark .carousel-indicators li {
+  background-color: transparent;
+}
+
+.bg-anime {
+  background-color: #E79DAF;
+}
+
+.bg-anime-secondary {
+  background-color: #FFFCD8;
+}
+
+
+.card a {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+  transform: color;
+
+}
+
+.card a:hover {
+  text-decoration: none;
+  color: rgb(31, 31, 31);
+  transform: color;
+}
+
+/*GLOBAL*/
+
+
+
+
+/*HEADER*/
+.navbar li {
+  font-size: 1rem;
+}
+
+.navbar {
+  color: black;
+}
+
+.dropdown-item {
+  background: transparent;
+}
+
+.navbar-nav.main .nav-item {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color,
+    background-color;
+  transition-property: color, background-color;
+}
+
+.navbar-nav.main .nav-item:hover {
+  background-color: white;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color,
+    background-color;
+  transition-property: color, background-color;
+}
+
+.navbar-nav.main .nav-item a {
+  color: white;
+}
+
+.navbar-nav.main .nav-item:hover a {
+  color: #f1aabb;
+}
+
+.info {
+  color: black;
+  text-decoration: none;
+}
+
+.secondary a,
+.secondary span {
+  color: rgb(119, 119, 119);
+  font-size: 0.84rem;
+}
+
+/*HEADER*/
+
+
+/*RECOMENDADOS*/
+.btn-anime {
+  background-color: #ecafbd;
+}
+
+.btn-anime:hover {
+  background-color: #d894a4;
+}
+
+/*RECOMENDADOS*/
+
+
+.bg-gray {
+  background-color: #e9ecef;
+}
+
+.seccion-01 {
+  background-image: url(assets/img/1920x1480-2.png);
+}
+
+.seccion-02 {
+  background-image: url(assets/img/carousel-background.png);
+}
